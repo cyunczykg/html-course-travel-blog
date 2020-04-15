@@ -1,0 +1,321 @@
+body
+{
+	margin: 0;
+	background-color: #2F3336;
+	color: #efefef;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+h1.logo {
+	font-size: 44px;
+	font-weight: 700;
+	color: #ddd;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-top: 50px;
+	margin-bottom: 40px;
+}
+
+nav {
+	text-align: center;
+	background-color: #1c74b2;
+}
+
+.menu{
+	list-style-type: none;
+	margin: 0px;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%
+}
+
+.menu > li {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: solid 1px #0a2b42;
+	
+}
+
+.menu > li:first-child {
+	border-left: solid 1px #0a2b42;	
+}
+
+.menu a {
+	text-decoration: none;
+	color: white;
+}
+
+.menu a:hover {
+	color: #0a2b42;
+}
+
+.kategorie {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 960px;
+	padding: 0px;
+}
+
+h1 {
+	font-size: 44px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+}
+
+.lokacja{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 960px;
+	padding: 0px;
+	margin-top: 10px;
+}
+
+.lokacja a{
+	opacity: 0.9;
+}
+
+.lokacja a:hover{
+	opacity: 1;
+}
+
+figure {
+	display: inline-block;
+	margin: 8px;
+	padding: 0px;
+}
+
+figcaption {
+	margin-top: 8px;
+	padding: 0px;
+}
+
+.wpisy {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 960px;
+	padding-top: 0px;
+	padding-bottom: 80px;
+	margin-top: 40px;
+}
+
+#najnowsze {
+	background-color: #191d21;
+}
+
+.wpis {
+	background-color: #222930;
+	border-radius: 5px;
+	margin-top: 40px;
+	text-align: justify;
+	padding: 10px;
+}
+
+.wpisobraz {
+	display: inline-block;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.wpisobraz img {
+	width: 90px;
+	height: 90px;
+}
+
+.wpistekst {
+	display: inline-block;
+	width: 790px;
+	font-size: 15px;
+}
+
+h2 {
+	font-size: 20px;
+	font-weight: 400;
+	color: #39a5f1;
+}
+
+.kontakt {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 960px;
+	padding-bottom: 0px;
+	margin-bottom: 50px;
+}
+
+.kontakt p{
+	margin-bottom: 50px;
+}
+
+.bluebutton {
+	background-color: #1c74b2; 
+	color: #efefef;
+	padding: 15px;
+	font-size: 19px;
+	text-decoration: none;
+	min-width: 300px;
+	border-radius: 5px;
+	}
+
+.yt
+{
+		
+	margin: 10px;
+	width: 42px;
+	font-size: 1.5em;
+	height: 39px;
+	float: right;
+	background-color: #c83237;
+	border-radius: 5px;
+}
+.yt:hover
+{
+	background-color: #b72126;
+}
+
+.fb
+{
+	margin: 10px;
+	width: 42px;
+	font-size: 1.5em;
+	height: 39px;
+	float: right;
+	background-color: #4668b3;
+	border-radius: 5px;
+}
+
+.fb:hover
+{
+	background-color: #3557a2;
+}
+
+.mail
+{
+	margin: 10px;
+	width: 44px;
+	font-size: 1.5em;
+	height: 39px;
+	float: right;
+	background-color: #d95333;
+	border-radius: 5px;
+}	
+
+.mail:hover
+{
+	background-color: #c84222;
+}
+
+.tw
+{
+	margin: 10px;
+	width: 42px;
+	font-size: 1.5em;
+	height: 39px;
+	float: right;
+	background-color: #3095d3;
+	border-radius: 5px;
+}
+
+.tw:hover
+{
+	background-color: #2084c2;
+}
+
+.stopka {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	
+}
+
+
+
+.stopka p {
+	width: 600px;
+	text-align: left;
+	float: left;
+	font-size: 1em;
+}
+
+a.tilelink
+{
+    color: white;
+    text-decoration: none;
+    display: block;
+    width: 230px;
+	height: 172px;
+}
+
+a.tilelinkhtml5
+{
+    color: white;
+    text-decoration: none;
+}
+
+.bluebutton:hover {
+	background-color: #196499; 
+}
+
+footer {
+	background-color: #191d21;
+}
+
+.container {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1000px;
+}
+
+.west {
+	float: left;
+	width: 750px;
+	padding: 20px;
+	text-align: justify;	
+}
+
+.west h1 {
+	font-size: 32px;
+	font-weight: 400;
+	color: #39a5f1;
+	margin-bottom: 20px;
+}
+
+.east {
+	float: left;
+	width: 170px;
+	padding: 20px;
+	text-align: left;
+
+}
+
+.east h2{
+	text-align: center;
+
+}
+
+#sidenav {
+	background-color: #2F3336;
+	text-align: left;
+}
+
+.east ul {
+	padding: 0px;
+}
+
+.east ul > li{
+	margin-bottom: 5px;
+	margin-left: 20px;
+}
+
+.east img {
+	margin-top: 15px;
+}
+
